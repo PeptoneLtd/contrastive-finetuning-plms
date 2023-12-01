@@ -1,0 +1,13 @@
+cff-version: 0.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - given-names: "Carlo Fisicaro"
+    family-names: "Fisicaro"
+    email: "carlo@peptone.io"
+    affiliation: "Peptone Ltd."
+    orcid: "0000-0002-2029-7230"
+title: "Contrastive Finetuning protein Language Models"
+version: 0.2.0
+doi:
+date-released:
+url: "https://github.com/PeptoneLtd/contrastive-finetuning-plms"

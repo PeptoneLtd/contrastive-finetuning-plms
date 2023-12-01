@@ -2,16 +2,21 @@
 
 This repo contains data and scripts to demonstrate how [Sentence-Transformers](https://github.com/UKPLab/sentence-transformers) can be used with protein Language Models, in particular [ESM](https://github.com/facebookresearch/esm/tree/main) models, as demonstrated in the paper "<i>Optimizing protein language models with Sentence Transformers</i>".
 
-The two minimal examples are solubility and disorder predictions. Both scripts
-* ```/scripts/solubility_search_seeds.py``` 
-* ```/scripts/disorder_st_avg.py```
+## Setup
 
-can be run in a fairly standard environment that would require the following packages
-```
-pip install -U transformers sentence-transformers accelerate bitsandbytes scikit-learn
-```
+Please note that this implementation requires GPUs.
 
-Note that the scripts take the data from the ```/data``` folder and might require adjusting of the paths depending on the environment setting. 
-Ideally the scripts should run on GPUs. For the ```disorder``` task in case of a large scale search one might consider caching the frozen residue level representations from ESM, 
-as currently it automatically downloads those from huggingface on-the-fly.
+```bash
+git clone https://github.com/PeptoneLtd/contrastive-finetuning-plms.git
+cd contrastive-finetuning-plms
+pip install -r full_env.txt
+```
+## Usage
+Two minimal examples showing how to train a solubility and disorder prediction are provided.
+* ```scripts/solubility_search_seeds.py``` 
+* ```scripts/disorder_st_avg.py```
+
+Note that the scripts take the data from the ```data``` folder and might require adjusting of the paths depending on the environment setting. 
+For the ```disorder``` task in case of a large scale search, one might consider caching the frozen residue level representations from ESM, 
+as currently it automatically downloads those from [huggingface](https://huggingface.co/) on-the-fly.
 

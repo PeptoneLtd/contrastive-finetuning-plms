@@ -20,6 +20,19 @@ Note that the scripts take the data from the ```data``` folder and might require
 For the ```disorder``` task in case of a large scale search, one might consider caching the frozen residue level representations from ESM, 
 as currently it automatically downloads those from [huggingface](https://huggingface.co/) on-the-fly.
 
+## Citations <a name="citations"></a>
+
+If you use this work in your research, please cite the the relevant software:
+
+```bibtex
+@software{Fisicaro_Contrastive_Finetuning_protein,
+author = {Fisicaro, Carlo Fisicaro},
+title = {{Contrastive Finetuning protein Language Models}},
+url = {https://github.com/PeptoneLtd/contrastive-finetuning-plms},
+version = {0.2.0}
+}
+```
+
 ## Licence
 This source code is licensed under the Apache 2.0 license found in the ```LICENSE``` file in the root directory of this source tree.
 

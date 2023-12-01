@@ -21,5 +21,5 @@ For the ```disorder``` task in case of a large scale search, one might consider 
 as currently it automatically downloads those from [huggingface](https://huggingface.co/) on-the-fly.
 
 ## Licence
-This source code is licensed under the Apache 2.0 license found in the ```LICENSE`` file in the root directory of this source tree.
+This source code is licensed under the Apache 2.0 license found in the ```LICENSE``` file in the root directory of this source tree.
 

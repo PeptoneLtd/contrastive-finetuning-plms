@@ -1,6 +1,6 @@
 # Contrastive Finetuning protein Language Models
 
-This repo contains data and scripts to demonstrate how [Sentence-Transformers](https://github.com/UKPLab/sentence-transformers) can be used with protein Language Models, in particular [ESM](https://github.com/facebookresearch/esm/tree/main) models, as demonstrated in the paper "<i>Optimizing protein language models with Sentence Transformers</i>".
+This repo contains data and scripts to demonstrate how [Sentence-Transformers](https://github.com/UKPLab/sentence-transformers) can be used with protein Language Models, in particular [ESM](https://github.com/facebookresearch/esm/tree/main) models, as demonstrated in the paper "<i>[Optimizing protein language models with Sentence Transformers](https://www.mlsb.io/papers_2023/Optimizing_protein_language_models_with_Sentence_Transformers.pdf)</i>", NeurIPS (2023).
 
 ## Setup
 
@@ -25,8 +25,8 @@ as currently it automatically downloads those from [huggingface](https://hugging
 If you use this work in your research, please cite the the relevant software:
 
 ```bibtex
-@software{Fisicaro_Contrastive_Finetuning_protein,
-author = {Fisicaro, Carlo Fisicaro},
+@software{Redl_Contrastive_Finetuning_protein,
+author = {Redl, Istvan Redl},
 title = {{Contrastive Finetuning protein Language Models}},
 url = {https://github.com/PeptoneLtd/contrastive-finetuning-plms},
 version = {0.2.0}

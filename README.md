@@ -24,9 +24,9 @@ as currently it automatically downloads those from [huggingface](https://hugging
 
 If you use this work in your research, please cite the the relevant software:
 
-```bibtex
+```BibTeX
 @software{Redl_Contrastive_Finetuning_protein,
-author = {Redl, Istvan Redl},
+author = {Redl, Istvan Redl and Airoldi, Fabio Airoldi and Bottaro, Sandro Bottaro and Chung, Albert Chung and Dutton, Oliver Dutton and Fisicaro, Carlo Fisicaro and Henderson, Louie Henderson and Hofmann, Falk Hoffmann and Invernizzi, Michele Invernizzi and Ruschetta, Stefano Ruschetta},
 title = {{Contrastive Finetuning protein Language Models}},
 url = {https://github.com/PeptoneLtd/contrastive-finetuning-plms},
 version = {0.2.0}

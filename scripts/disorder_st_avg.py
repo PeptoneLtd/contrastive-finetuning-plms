@@ -38,6 +38,8 @@ necessarily suitable for computationally intense random search.
 # ------------------------------------------------------------------------------------------------------
 # the two datasets can be found in the repo's 'data/disorder' folder
 
+device = torch.device('cuda')
+
 path_chezod_1159_raw = "data/disorder/chezod_1159.json"
 path_chezod_117_raw = "data/disorder/117_dataset_raw.json"
 df_1159 = pd.read_json(path_chezod_1159_raw)
@@ -174,8 +176,8 @@ seq_col = "sequence"
 category_col = "bucket-z-score"
 
 esm_model_name = "facebook/esm2_t33_650M_UR50D"
-esm_tokenizer = AutoTokenizer.from_pretrained(esm_model_name)
-esm_model_8bit = AutoModel.from_pretrained(esm_model_name, device_map="auto", load_in_8bit=True)
+esm_tokenizer = AutoTokenizer.from_pretrained(esm_model_name).to(device)
+esm_model_8bit = AutoModel.from_pretrained(esm_model_name, device_map="auto", load_in_8bit=False)
 
 
 def get_embeddings(

@@ -25,9 +25,13 @@ as currently it automatically downloads those from [huggingface](https://hugging
 If you use this work in your research, please cite the the relevant software:
 
 ```BiBTeX
-@article{redloptimizing,
-  title={Optimizing protein language models with Sentence Transformers},
-  author={Redl, Istvan and Airoldi, Fabio and Bottaro, Sandro and Chung, Albert and Dutton, Oliver and Fisicaro, Carlo and Foerch, Patrik and Henderson, Louie and Hoffmann, Falk and Invernizzi, Michele and others}
+@inproceedings{adopt2,
+  title     = {Optimizing protein language models with Sentence Transformers},
+  author    = {Istvan Redl and Fabio Airoldi and Sandro Bottaro and Albert Chung and Oliver Dutton and Carlo Fisicaro and Patrik Foerch and Louie Henderson and Falk Hoffmann and Michele Invernizzi and Benjamin M J Owens and Stefano Ruschetta and Kamil Tamiola},
+  booktitle = {Proceedings of the NeurIPS Workshop on Machine Learning in Structural Biology},
+  year      = {2023},
+  note      = {Workshop Paper},
+  url       = {https://www.mlsb.io/papers_2023/Optimizing_protein_language_models_with_Sentence_Transformers.pdf}
 }
 ```
 
